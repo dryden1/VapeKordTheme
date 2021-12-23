@@ -35,6 +35,7 @@ _____ _____ _____ _____ _____ _____ _____ ____
   --vape-bg2: #171819;
   --vape-sec: #AD569D;
   --vape-links: #5478AD;
+  --vape-mentionhighlight: #CE67BB;
   --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk)
 }
 
@@ -120,7 +121,7 @@ _____ _____ _____ _____ _____ _____ _____ ____
 }
 
 .wrapper-3D2qGf {
-  background-color: var(--vape-sec);
+  background-color: var(--vape-bg);
   border: none;
 }
 .wrapper-3D2qGf:hover,
@@ -138,16 +139,16 @@ _____ _____ _____ _____ _____ _____ _____ ____
   color: var(--vape-sec);
 }
 .mention-1f5kbO {
-  background-color: var(--vape-sec);
+  background-color: var(--vape-links);
 }
 .mentioned-xhSam7 {
-  background-color: rgba(var(--vape-bg), 0.1) !important;
+  background-color: rgba(var(--vape-links), 255) !important;
 }
 .mentioned-xhSam7:before {
-  background-color: var(--vape-bg2);
+  background-color: rgba(var(--vape-links),255 );
 }
 .mentioned-xhSam7:hover {
-  background-color: rgba(var(--vape-sec), 0.2) !important;
+  background-color: rgba(var(--vape-links), 255) !important;
 }
 
 .iconBadge-qZ4Ksk {
@@ -893,7 +894,7 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 .wordmark-2iDDfm:after {
-  content: "≋Vape 𝗯𝘆 𝚍𝚛𝚢𝚍𝚎𝚗#𝟶𝟶𝟶𝟷";
+  content: "≋ VapeKord 𝗯𝘆 𝚍𝚛𝚢𝚍𝚎𝚗#𝟶𝟶𝟶𝟷";
 }
 
 .channelName-2YrOjO,
