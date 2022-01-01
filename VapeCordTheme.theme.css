@@ -35,7 +35,7 @@ _____ _____ _____ _____ _____ _____ _____ ____
 :root {
   --vape-bg: #202225; /*Main background colour*/
   --vape-bg2: #171819; /*Secondary background colour*/
-  --vape-sec: #D872CC; /*Main text field  colour*/
+  --vape-sec: #C48FB5; /*Main text field  colour*/
   --vape-links: #63C8FF; /*Secondary text field  colour*/
   --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk);
 
@@ -580,6 +580,8 @@ color: var(--vape-sec);
 }
 .unread-2lAfLh {
   background-color: var(--vape-sec);
+  filter: drop-shadow(0 0 5px);
+  color: var(--vape-sec);
 }
 .overflow-WK9Ogt {
   color: var(--vape-links);
