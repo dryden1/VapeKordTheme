@@ -1,3 +1,11 @@
+:root {
+  --vape-bg: #202225;
+  --vape-bg2: #171819;
+  --vape-sec: #AD569D;
+  --vape-links: #5478AD;
+  --vape-muted: #AA88A4;
+  --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk);
+}
 .bg-h5JY_x,
 .container-16j22k {
   background-color: var(--vape-bg);
