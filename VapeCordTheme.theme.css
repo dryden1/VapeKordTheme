@@ -1,15 +1,15 @@
 /**
   * @name VapeKord
   * @author Dryden#0001
-  * @version Vape1.0
-  * @description Vaporwave ccent oriented theme with several small cosmetic changes. 
+  * @version 1.5
+  * @description Vaporwave accent oriented theme with several small cosmetic changes. 
   * @authorId 168552875255922688
   * @authorLink https://dryden.club/
   * @source https://github.com/dryden1/VapeKordTheme/blob/main/VapeCordTheme.theme.css
   * @website https://dryden.club/
 
 
-@import url('https://github.com/dryden1/VapeKordTheme/blob/1510003f551e82ee43921260c9bda73977037fcc/VapeCordTheme.theme.css');
+
 
 
 _____ _____ _____ _____ _____ _____ _____ ____              
@@ -29,14 +29,38 @@ _____ _____ _____ _____ _____ _____ _____ ____
                         |  |  |    -|_   _|  |  |   __| | | |
                         |____/|__|__| |_| |____/|_____|_|___|
 */
-
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://github.com/dryden1/VapeKordTheme/blob/43d85e648cff8efcdf340488351a8d117aa9cb2f/main.theme.css');
 :root {
   --vape-bg: #202225;
   --vape-bg2: #171819;
   --vape-sec: #AD569D;
   --vape-links: #5478AD;
-  --vape-mentionhighlight: #CE67BB;
-  --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk)
+  --vape-muted: #AA88A4;
+  --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk);
+
+
+/*radial status by gibbu*/
+
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
 .bg-h5JY_x,
@@ -139,16 +163,20 @@ _____ _____ _____ _____ _____ _____ _____ ____
   color: var(--vape-sec);
 }
 .mention-1f5kbO {
-  background-color: var(--vape-links);
+  background-color: var(--vape-sec);
 }
 .mentioned-xhSam7 {
-  background-color: rgba(var(--vape-links), 255) !important;
+  background-color: var(--vape-bg) !important;
+    filter: drop-shadow(0 0 4px);
+  color: var(--vape-links);
 }
 .mentioned-xhSam7:before {
-  background-color: rgba(var(--vape-links),255 );
+  background-color: var(--vape-bg);
 }
 .mentioned-xhSam7:hover {
-  background-color: rgba(var(--vape-links), 255) !important;
+  background-color: var(--vape-bg) !important;
+  filter: drop-shadow(0 0 4px);
+  color: var(--vape-sec);
 }
 
 .iconBadge-qZ4Ksk {
@@ -365,7 +393,10 @@ _____ _____ _____ _____ _____ _____ _____ ____
 background: var(--vape-home-icon) center/cover no-repeat;
 min-width: 50px;
 min-height: 50px;
+filter: drop-shadow(4 4 9px);
+color: var(--vape-sec);
 }
+
 
 
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
@@ -388,14 +419,14 @@ min-height: 50px;
 }
 
 .avatar-1BDn8e.clickable-1bVtEA {
-  filter: drop-shadow(0 0 3px);
+  filter: drop-shadow(0 0 4px);
   color: var(--vape-sec);
 }
 .avatar-1BDn8e:hover.clickable-1bVtEA:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--vape-sec);
   transform: scale(1.2) rotate(360deg);
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+  transition: width 0.65s ease, height 0.65s ease, transform 0.65s ease;
 }
 
 
@@ -732,7 +763,7 @@ min-height: 50px;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--vape-links);
+  background-color: transparent;
   color: var(--vape-bg);
 }
 #bd-pub-button {
