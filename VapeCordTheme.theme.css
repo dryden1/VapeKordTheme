@@ -30,13 +30,13 @@ _____ _____ _____ _____ _____ _____ _____ ____
                         |____/|__|__| |_| |____/|_____|_|___|
 */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
 @import url('https://github.com/dryden1/VapeKordTheme/blob/43d85e648cff8efcdf340488351a8d117aa9cb2f/main.theme.css');
 :root {
-  --vape-bg: #202225;
-  --vape-bg2: #171819;
-  --vape-sec: #AD569D;
-  --vape-links: #5478AD;
-  --vape-muted: #AA88A4;
+  --vape-bg: #202225; /*Main background colour*/
+  --vape-bg2: #171819; /*Secondary background colour*/
+  --vape-sec: #D872CC; /*Main text field  colour*/
+  --vape-links: #63C8FF; /*Secondary text field  colour*/
   --vape-home-icon:   url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4600bb33-eefd-4622-91de-522df10688a6/dd2lof5-c8ae45c2-e8ca-4970-9281-fbf5b5825da9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MDBiYjMzLWVlZmQtNDYyMi05MWRlLTUyMmRmMTA2ODhhNlwvZGQybG9mNS1jOGFlNDVjMi1lOGNhLTQ5NzAtOTI4MS1mYmY1YjU4MjVkYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9en8CPPA25CP4mJ4m74MLw5hXM8RHFNs6zB82-iPsk);
 
 
@@ -50,15 +50,15 @@ _____ _____ _____ _____ _____ _____ _____ ____
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
 
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 35%; /* 50% for round - 0% for square */
 
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-online-color: #63C8FF; /* Colour for online status */
+  --rs-idle-color: #C3CC26; /* Colour for idle status */
+  --rs-dnd-color: #D872CC; /* Colour for dnd status */
+  --rs-offline-color: #898287; /* Colour for offline status */
+  --rs-streaming-color: #874284; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-phone-color: #D38B3D; /* Colour of the ring and phone icon when a user is on their phone |  */
 
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
